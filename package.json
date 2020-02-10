@@ -20,6 +20,10 @@
     "video.js": "^7.6.6"
   },
   "dependencies": {
-    "jquery-aniview": "^1.0.2"
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "jquery-aniview": "^1.0.2",
+    "normalize.css": "^8.0.1"
   }
 }
