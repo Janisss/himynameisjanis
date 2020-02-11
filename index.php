@@ -26,24 +26,59 @@
     </div>
 
     <main class="pt-5">
+
         <div class="container p-5">
-            <h1 data-av-animation="fadeInLeft" class="aniview">Video a fotoslužby za priateľské ceny</h1>
+            <h1 data-av-animation="fadeInLeft" class="aniview">Video</h1>
+            <span data-av-animation="fadeInRight" class="subtitle aniview">
+                Tvorba videí ma baví zo všetkého najviac. Pozrite si videá ktoré som natáčal a strihal, alebo minimálne sa podielal na ich výrobe.
+            </span>
         </div>
-        <div class="container pt-5 pb-5">
-            <div data-av-animation="fadeIn" class="video-container aniview">
-                <iframe src="https://www.youtube.com/embed/YgGA-Cb2hPk" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                    style="width: 100%;height: 100%">
-                </iframe>
+
+        <div class="container-fluid">
+        <div class="video-slider">
+            <div>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/aXS94zHrRhs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
             </div>
-        </div>
-        <div class="container pt-5 pb-5">
-            <div data-av-animation="fadeIn" class="video-container aniview">
+            <div>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/EJ9BBC72liw" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/YgGA-Cb2hPk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div>
+            <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/DMRzkQWn1u8" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                    style="width: 100%;height: 100%">
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
+            </div>
+            <div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/1Gi2k3cPBrA" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            </div>
+            <div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/CmoD1rlGtsU" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            </div>
+        </div>
         </div>
     </main>
 
@@ -53,8 +88,17 @@
     <br><br><br><br><br><br><br><br>
 
 
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
     <script>
         $('.aniview').AniView();
+
+        $('.video-slider').slick({
+            dots: true,
+            speed: 500,
+            centerMode: true,
+            slidesToShow: 3,
+            centerPadding: '60px',
+        });
     </script>
 </body>
 

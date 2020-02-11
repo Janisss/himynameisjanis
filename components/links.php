@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
 <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+<link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+<link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css">
 <link rel="stylesheet" href="css/style.css">
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
