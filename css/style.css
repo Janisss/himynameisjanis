@@ -1,6 +1,11 @@
 @font-face {
+    font-family: 'decorative';
+    src: url('../fonts/GreatWishes.otf');
+}
+
+@font-face {
     font-family: 'poppins-reg';
-    src: url('../fonts/Poppins-Regular.otf');
+    src: url('../fonts/Poppins-Thin.otf');
 }
 
 @font-face {
@@ -9,32 +14,48 @@
 }
 
 h1{
-    font-family: 'poppins-bold';
+    font-family: 'decorative';
     color: rgb(70, 70, 70);
     text-align: center;
     position: relative;
+    z-index: 1;
+    font-size: 3rem;
 }
 
 h1::before{
     position: absolute;
     content: '';
-    width: 150px;
-    height: 5px;
-    bottom: -12px;
+    width: 80px;
+    height: 2px;
+    bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
-    background-color: gray;
+    transform: translateX(-10%) rotate(-23deg);
+    background-color: rgb(131, 130, 130);
+    z-index: -1;
+}
+
+h1::after{
+    position: absolute;
+    content: '';
+    width: 160px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(8deg);
+    background-color: rgb(207, 50, 50);
+    z-index: -1;
 }
 
 span.subtitle{
     display: block;
     text-align: center;
-    max-width: 500px;
     margin: auto;
+    font-size: 1.4rem;
 }
 
 p{
-    font-size: 2rem;
+    font-family: 'poppins-reg';
+    font-size: 1.4rem;
 }
 
 body {
@@ -95,6 +116,12 @@ body {
     width: 95%;
     height: 100%;
 }
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 19%;margin:2px;}
+/* 2 columns */
+.grid-item--width2 { width: 40%; }
 
 .slick-prev:before, .slick-next:before{
     color: gray;
