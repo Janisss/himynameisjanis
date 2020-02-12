@@ -96,8 +96,8 @@
             dots: true,
             speed: 500,
             centerMode: true,
-            slidesToShow: 1,
-            centerPadding: '60px',
+            slidesToShow: 3,
+            centerPadding: '30px',
         });
     </script>
 </body>
