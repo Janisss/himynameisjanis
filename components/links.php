@@ -7,5 +7,6 @@
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/jquery-aniview/dist/jquery.aniview.js"></script>
+<script src="node_modules/jquery-lazy/jquery.lazy.min.js"></script>
 <script src="node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
 <script src="js/script.js"></script>
