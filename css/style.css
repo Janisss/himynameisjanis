@@ -58,6 +58,10 @@ p{
     font-size: 1.4rem;
 }
 
+p.text-center{
+    text-align: center;
+}
+
 body {
     font-family: 'poppins-reg';
     background-color: rgb(245, 245, 245);

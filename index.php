@@ -123,7 +123,11 @@
 
     <br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br>
+
+    <div class="container">
+        <p class="text-center"><a href="mailto:info@himynameisjanis.com">info@himynameisjanis.com</a></p>
+        <p class="text-center"><a href="tel:+421902119544">0902 119 544</a></p>
+    </div>
 
 
     <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
@@ -137,15 +141,6 @@
             slidesToShow: 1,
         });
 
-        // init Masonry
-        var $grid = $('.grid').masonry({
-            // options...
-            itemSelector: '.grid-item',
-        });
-        // layout Masonry after each image loads
-        $grid.imagesLoaded().progress(function () {
-            $grid.masonry('layout');
-        });
     </script>
 </body>
 
