@@ -40,7 +40,7 @@
                 <div>
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/aXS94zHrRhs" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; gyroscope;"
                             allowfullscreen>
                         </iframe>
                     </div>
@@ -48,7 +48,7 @@
                 <div>
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/EJ9BBC72liw" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; gyroscope;"
                             allowfullscreen>
                         </iframe>
                     </div>
@@ -56,7 +56,7 @@
                 <div>
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/YgGA-Cb2hPk" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; gyroscope;"
                             allowfullscreen>
                         </iframe>
                     </div>
@@ -64,7 +64,7 @@
                 <div>
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/DMRzkQWn1u8" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; gyroscope;"
                             allowfullscreen>
                         </iframe>
                     </div>
@@ -72,7 +72,7 @@
                 <div>
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/1Gi2k3cPBrA" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; gyroscope;"
                             allowfullscreen>
                         </iframe>
                     </div>
@@ -80,7 +80,7 @@
                 <div>
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/CmoD1rlGtsU" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; gyroscope;"
                             allowfullscreen>
                         </iframe>
                     </div>
