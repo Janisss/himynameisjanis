@@ -1,24 +1,13 @@
-
-$(function () {
-    $(document).smartLoader({
-      theControl: 'images',
-      howManySeconds: 5000,
-      lengthOfLoop: 200,
-      callback: function () {
-        $('#dimmer').fadeOut(1000);
-        // make grid now
-        var $grid = $('.grid').masonry({
-            itemSelector: '.grid-item',
-        });
-        $grid.imagesLoaded().progress( function() {
-            $grid.masonry('layout');
-        });
-      },
-      errorCallback: function () {
-        console.log('missing images');
-      }
+$(window).load(function() {
+    $("#dimmer").delay(2000).fadeOut(1000);
+    // make grid now
+    var $grid = $('.grid').masonry({
+        itemSelector: '.grid-item',
     });
-  });
+    $grid.imagesLoaded().progress( function() {
+        $grid.masonry('layout');
+    });
+})
 
 $(document).ready(function () {
     $(window).scroll(function (event) {

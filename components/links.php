@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="css/style.css">
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="js/smart-loader.min.js"></script>
 <script src="node_modules/jquery-aniview/dist/jquery.aniview.js"></script>
 <script src="node_modules/jquery-lazy/jquery.lazy.min.js"></script>
 <script src="node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
