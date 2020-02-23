@@ -46,32 +46,32 @@
             <div class="video-slider">
                 <div>
                     <a href="https://youtu.be/aXS94zHrRhs" target="_blank">
-                        <img data-src="img/video/thumb_okhamoro.jpg" alt="Video" class="video-thumbs lazy">
+                        <img src="img/video/thumb_okhamoro.jpg" alt="Video" class="video-thumbs">
                     </a>
                 </div>
                 <div>
                     <a href="https://youtu.be/YgGA-Cb2hPk" target="_blank">
-                        <img data-src="img/video/thumb_vwzraz.jpg" alt="Video" class="video-thumbs lazy">
+                        <img src="img/video/thumb_vwzraz.jpg" alt="Video" class="video-thumbs">
                     </a>
                 </div>
                 <div>
                     <a href="https://youtu.be/DMRzkQWn1u8" target="_blank">
-                        <img data-src="img/video/thumb_splitboard.jpg" alt="Video" class="video-thumbs lazy">
+                        <img src="img/video/thumb_splitboard.jpg" alt="Video" class="video-thumbs">
                     </a>
                 </div>
                 <div>
                     <a href="https://youtu.be/1Gi2k3cPBrA" target="_blank">
-                        <img data-src="img/video/thumb_andrejcova.jpg" alt="Video" class="video-thumbs lazy">
+                        <img src="img/video/thumb_andrejcova.jpg" alt="Video" class="video-thumbs">
                     </a>
                 </div>
                 <div>
                     <a href="https://youtu.be/EJ9BBC72liw" target="_blank">
-                        <img data-src="img/video/thumb_freshisland.jpg" alt="Video" class="video-thumbs lazy">
+                        <img src="img/video/thumb_freshisland.jpg" alt="Video" class="video-thumbs">
                     </a>
                 </div>
                 <div>
                     <a href="https://youtu.be/CmoD1rlGtsU" target="_blank">
-                        <img data-src="img/video/thumb_rbfriend.jpg" alt="Video" class="video-thumbs lazy">
+                        <img src="img/video/thumb_rbfriend.jpg" alt="Video" class="video-thumbs">
                     </a>
                 </div>
             </div>
