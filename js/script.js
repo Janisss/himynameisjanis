@@ -1,7 +1,7 @@
 
 $(function () {
     $(document).smartLoader({
-      theControl: 'img',
+      theControl: 'images',
       howManySeconds: 5000,
       lengthOfLoop: 200,
       callback: function () {
