@@ -1,3 +1,17 @@
+#dimmer {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 200000;
+    text-align: center;
+    padding-top: 30%;
+    background: #fff;
+    box-shadow: inset 0 0 15px #767676;
+}
+
 @font-face {
     font-family: 'decorative';
     src: url('../fonts/GreatWishes.otf');
@@ -13,7 +27,7 @@
     src: url('../fonts/Poppins-Bold.otf');
 }
 
-h1{
+h1 {
     font-family: 'decorative';
     color: rgb(70, 70, 70);
     text-align: center;
@@ -22,7 +36,7 @@ h1{
     font-size: 3rem;
 }
 
-h1::before{
+h1::before {
     position: absolute;
     content: '';
     width: 80px;
@@ -34,7 +48,7 @@ h1::before{
     z-index: -1;
 }
 
-h1::after{
+h1::after {
     position: absolute;
     content: '';
     width: 160px;
@@ -46,19 +60,19 @@ h1::after{
     z-index: -1;
 }
 
-span.subtitle{
+span.subtitle {
     display: block;
     text-align: center;
     margin: auto;
     font-size: 1.4rem;
 }
 
-p{
+p {
     font-family: 'poppins-reg';
     font-size: 1.4rem;
 }
 
-p.text-center{
+p.text-center {
     text-align: center;
 }
 
@@ -123,13 +137,21 @@ body {
 
 /* fluid 5 columns */
 .grid-sizer,
-.grid-item { width: 19%;margin:2px;}
-/* 2 columns */
-.grid-item--width2 { width: 40%; }
+.grid-item {
+    width: 19%;
+    margin: 2px;
+}
 
-.slick-prev:before, .slick-next:before{
+/* 2 columns */
+.grid-item--width2 {
+    width: 40%;
+}
+
+.slick-prev:before,
+.slick-next:before {
     color: gray;
 }
-.slick-dots li button:before{
+
+.slick-dots li button:before {
     font-size: 15px;
 }

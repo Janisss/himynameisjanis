@@ -16,6 +16,10 @@
 
 <body>
 
+<div id="dimmer">
+  LOADING
+</div>
+
     <div class="pt-3 pl-3 pr-3 pt-md-5 pl-md-5 pr-md-5">
         <div data-av-animation="zoomIn" class="aniview introimage">
             <div class="namecenter">
@@ -30,7 +34,7 @@
         <div class="container p-5">
             <h1>video</h1>
             <span class="subtitle">
-                Tvorba videí ma baví zo všetkého najviac. Pozrite si videá ktoré som natáčal a strihal, alebo minimálne
+                Natáčanie reklamných spotov, hudobných klipov, produktových videí a podobne. Tvorba videí ma baví zo všetkého najviac. Pozrite si videá ktoré som natáčal a strihal, alebo minimálne
                 sa podielal na ich výrobe.
             </span>
         </div>
@@ -91,7 +95,7 @@
         <div class="container p-5">
             <h1>foto</h1>
             <span class="subtitle">
-                K videu patrí neodlúčíteľne aj fotka. Fotenie je pre mňa strašne zaujímavá a zábavná vec ktorá dokáže
+                Príroda, produkty, ľudia alebo služby. K videu patrí neodlúčíteľne aj fotka. Fotenie je pre mňa strašne zaujímavá a zábavná vec ktorá dokáže
                 uschovať moment naveky.
             </span>
         </div>
