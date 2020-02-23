@@ -17,7 +17,7 @@
 <body>
 
 <div id="dimmer">
-  LOADING
+    <span style="font-family: 'smooth';color: rgb(32, 32, 32);">loading...</span>
 </div>
 
     <div class="pt-3 pl-3 pr-3 pt-md-5 pl-md-5 pr-md-5">
@@ -32,7 +32,9 @@
     <main class="pt-5">
 
         <div class="container p-5">
+
             <h1>video</h1>
+
             <span class="subtitle">
                 Natáčanie reklamných spotov, hudobných klipov, produktových videí a podobne. Tvorba videí ma baví zo všetkého najviac. Pozrite si videá ktoré som natáčal a strihal, alebo minimálne
                 sa podielal na ich výrobe.

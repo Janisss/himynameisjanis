@@ -13,8 +13,8 @@
 }
 
 @font-face {
-    font-family: 'decorative';
-    src: url('../fonts/GreatWishes.otf');
+    font-family: 'smooth';
+    src: url('../fonts/SmoothFantasy.otf');
 }
 
 @font-face {
@@ -27,37 +27,12 @@
     src: url('../fonts/Poppins-Bold.otf');
 }
 
-h1 {
-    font-family: 'decorative';
-    color: rgb(70, 70, 70);
+h1{
+    font-family: smooth;
+    font-size: 3.5rem;
     text-align: center;
-    position: relative;
-    z-index: 1;
-    font-size: 3rem;
-}
-
-h1::before {
-    position: absolute;
-    content: '';
-    width: 80px;
-    height: 2px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-10%) rotate(-23deg);
-    background-color: rgb(131, 130, 130);
-    z-index: -1;
-}
-
-h1::after {
-    position: absolute;
-    content: '';
-    width: 160px;
-    height: 2px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%) rotate(8deg);
-    background-color: rgb(207, 50, 50);
-    z-index: -1;
+    font-weight: 100;
+    color: rgb(32, 32, 32);
 }
 
 span.subtitle {
