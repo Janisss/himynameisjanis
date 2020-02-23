@@ -1,12 +1,3 @@
-$('#dimmer').delay(2000).fadeOut(1000);
-// make grid now
-var $grid = $('.grid').masonry({
-    itemSelector: '.grid-item',
-});
-$grid.imagesLoaded().progress( function() {
-    $grid.masonry('layout');
-});
-
 $(document).ready(function () {
     $(window).scroll(function (event) {
         var scroll = $(window).scrollTop();
@@ -14,5 +5,13 @@ $(document).ready(function () {
         $('.namecenter').css({
             'top': +top + '%'
         });
+    });
+    $('#dimmer').delay(2000).fadeOut(1000);
+    // make grid now
+    var $grid = $('.grid').masonry({
+        itemSelector: '.grid-item',
+    });
+    $grid.imagesLoaded().progress(function () {
+        $grid.masonry('layout');
     });
 });
