@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
 <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap&subset=latin-ext" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
